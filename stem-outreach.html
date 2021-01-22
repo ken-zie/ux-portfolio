@@ -10,6 +10,17 @@
     </head>
 
     <body>
+        <script>
+            document.body.classList.add('fade');
+        </script>
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+              window.setTimeout(function() {
+                document.body.className = '';
+              }, 230);
+            });
+        </script>
+
         <header>
             <nav class = "main-nav">
                 <a href = "home.html">Home</a>

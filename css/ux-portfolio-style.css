@@ -9,6 +9,14 @@ body {
     background-image: linear-gradient(rgb(23, 23, 23) .05em, transparent 0.01em), 
                       linear-gradient(90deg, rgb(23, 23, 23) .05em, transparent 0.01em);
     background-size: 1.7em 1.7em;
+
+    opacity: 1;
+    transition-duration: 0.4s;
+    transition-property: opacity;
+}
+
+body.fade {
+    opacity: 0;
 }
 
 header.full-screen, section.full-screen {
