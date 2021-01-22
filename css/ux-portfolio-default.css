@@ -7,6 +7,7 @@ html, body, header, section, mark, h1, h2, h3, h4, h5, p, nav, a, footer, figure
 	vertical-align: baseline;
 	background: transparent;
 	text-decoration: none;
+	font-weight: normal;
 }
 
 body {
