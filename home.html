@@ -10,18 +10,10 @@
     </head>
 
     <body>
-        <script>
-            document.body.classList.add('fade');
-        </script>
-        <script>
-            document.addEventListener("DOMContentLoaded", () => {
-              window.setTimeout(function() {
-                document.body.className = '';
-              }, 230);
-            });
-        </script>
+        <script src = "javascript/fade.js"></script>
 
-        <header class = "full-screen style1">
+        <header id = "navbar">
+            <script src = "javascript/scroll.js"></script>
             <nav class = "main-nav">
                 <a href = "home.html" class = "current">Home</a>
                 <a href = "user-experience.html">User Experience</a>
@@ -29,8 +21,11 @@
                 <a href = "stem-outreach.html">STEM Outreach</a>
                 <a href = "connect.html">Connect</a>
             </nav>
-            <h1>Kenzie <mark>Swinford</mark></h1>
         </header>
+
+        <section class = "title full-screen style1">
+            <h1>Kenzie <mark>Swinford</mark></h1>
+        </section>
 
         <section class = "full-screen style2">
             <p>This is where I will put the information about the website and explain why I made it.</p>
