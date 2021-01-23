@@ -10,18 +10,10 @@
     </head>
 
     <body>
-        <script>
-            document.body.classList.add('fade');
-        </script>
-        <script>
-            document.addEventListener("DOMContentLoaded", () => {
-              window.setTimeout(function() {
-                document.body.className = '';
-              }, 230);
-            });
-        </script>
+        <script src = "javascript/fade.js"></script>
 
-        <header>
+        <header id = "navbar">
+            <script src = "javascript/scroll.js"></script>
             <nav class = "main-nav">
                 <a href = "home.html">Home</a>
                 <a href = "user-experience.html">User Experience</a>
@@ -31,8 +23,10 @@
             </nav>
         </header>
 
-        <section class = "connect">
+        <section class = "left">
             <h1>Connect <mark>with me</mark></h1>
+        </section>
+        <section class = "right">
             <nav class = "connect-nav">
                 <a href = "mailto:swinfordkenzie@gmail.com">Email</a>
                 <a href = "https://www.linkedin.com/in/kenzie-swinford">LinkedIn</a>

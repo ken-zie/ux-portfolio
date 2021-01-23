@@ -10,18 +10,10 @@
     </head>
 
     <body>
-        <script>
-            document.body.classList.add('fade');
-        </script>
-        <script>
-            document.addEventListener("DOMContentLoaded", () => {
-              window.setTimeout(function() {
-                document.body.className = '';
-              }, 230);
-            });
-        </script>
+        <script src = "javascript/fade.js"></script>
 
-        <header>
+        <header id = "navbar">
+            <script src = "javascript/scroll.js"></script>
             <nav class = "main-nav">
                 <a href = "home.html">Home</a>
                 <a href = "user-experience.html">User Experience</a>
@@ -31,15 +23,8 @@
             </nav>
         </header>
 
-        <section class = "dev-message">
-            <h1>Thank you for stopping by!</h1>
-            <p>This page is still in its developmental stages.<br>
-               Please continue to one of the other pages listed below.</p>
-            <nav>
-                <a href = "home.html">Home</a>
-                <a href = "user-experience.html">User Experience</a>
-                <a href = "connect.html">Connect</a>
-            </nav>
+        <section class = "left">
+            <h1>STEM <mark>Outreach</mark></h1>
         </section>
     </body>
 </html>
