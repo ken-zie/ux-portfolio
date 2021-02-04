@@ -4,8 +4,8 @@ body {
     transition-property: opacity;
 
     background: rgb(10, 10, 10);
-    background-image: linear-gradient(rgb(23, 23, 23) .05em, transparent 0.01em), 
-                      linear-gradient(90deg, rgb(23, 23, 23) .05em, transparent 0.01em);
+    background-image: linear-gradient(rgb(35, 35, 35) .05em, transparent 0.01em), 
+                      linear-gradient(90deg, rgb(35, 35, 35) .05em, transparent 0.01em);
     background-size: 1.7em 1.7em;
 }
 
@@ -56,13 +56,13 @@ header {
 
 .style1 {
     background: rgb(10, 10, 10);
-    background-image: linear-gradient(rgb(23, 23, 23) .05em, transparent 0.01em), 
-                      linear-gradient(90deg, rgb(23, 23, 23) .05em, transparent 0.01em);
+    background-image: linear-gradient(rgb(35, 35, 35) .05em, transparent 0.01em), 
+                      linear-gradient(90deg, rgb(35, 35, 35) .05em, transparent 0.01em);
     background-size: 1.7em 1.7em;
 }
 
 .style2 {
-    background-color:rgb(23, 23, 23);
+    background-color:rgb(35, 35, 35);
     color: white;
     font-family: "Abel";
 }
@@ -71,8 +71,35 @@ header.full-screen, section.full-screen {
     height: 100vh;
 }
 
+section.half-screen {
+    height: 50vh;
+}
+
+section div.inside-section {
+    margin-top: 200px;
+    
+}
+
+div#about-text-group {
+    padding-top: 100px;
+}
+
+nav.external-nav {
+    display: block;
+    float: left;
+    text-align: left;
+}
+
+nav.external-nav a {
+    display: inline-block;
+    margin-right: 20px;
+    color: rgb(187, 187, 187);
+    font-size: 150%;
+}
+
 nav.main-nav {
     display: block;
+    float: right;
     text-align: right;
 }
 
@@ -86,6 +113,10 @@ nav.main-nav a {
 }
 
 nav.main-nav a:hover {
+    color: white;
+}
+
+nav.external-nav a:hover {
     color: white;
 }
 
@@ -121,7 +152,7 @@ nav.connect-nav {
     float: right;
     text-align: right;
     margin-top: 30vh;
-    width: 25%;
+    width: 30%;
 }
 
 nav.connect-nav a {
@@ -130,13 +161,47 @@ nav.connect-nav a {
     margin-bottom: 10px;
     font-family: "Abel";
     color: rgb(187, 187, 187);
-    font-size: 300%;
-    font-weight: normal;
+    font-size: 350%;
+    font-weight: bolder;
     width: 100%;
 }
 
 nav.connect-nav a:hover {
     color: white;
+}
+
+img#self {
+    display: block;
+    width: 500px;
+    float: left;
+    margin-right: 50px;
+}
+
+p {
+    font-family: "Abel";
+}
+
+p.p-style1 {
+    color: white;
+    font-size: 500%;
+}
+
+p.p-style2 {
+    color: white;
+    font-size: 300%;
+}
+
+p.p-style3 {
+    color:rgb(187, 187, 187);
+    font-size: 200%;
+}
+
+p a {
+    color: #9EB375;
+}
+
+p a:hover {
+    color: #DFFF29;
 }
 
 /* Scroll Bar */
@@ -149,7 +214,7 @@ nav.connect-nav a:hover {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: rgb(23, 23, 23);
+    background: rgb(35, 35, 35);
     border-radius: 1px;
 }
 
@@ -158,7 +223,7 @@ nav.connect-nav a:hover {
 }
 
 ::-webkit-scrollbar-button {
-    background:rgb(23, 23, 23);
+    background: rgb(35, 35, 35);
 }
 
 ::-webkit-scrollbar-button:hover {
