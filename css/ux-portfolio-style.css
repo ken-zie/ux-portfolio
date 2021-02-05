@@ -177,6 +177,12 @@ img#self {
     margin-right: 50px;
 }
 
+img#computer {
+    display: block;
+    width: 500px;
+    float: right;
+}
+
 p {
     font-family: "Abel";
 }
@@ -197,11 +203,16 @@ p.p-style3 {
 }
 
 p a {
-    color: #9EB375;
+    /* color: #9EB375; */
+    color: #B8D157;
 }
 
 p a:hover {
     color: #DFFF29;
+}
+
+p mark {
+    color: white;
 }
 
 /* Scroll Bar */
