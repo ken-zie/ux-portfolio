@@ -75,9 +75,13 @@ section.half-screen {
     height: 50vh;
 }
 
-section div.inside-section {
+section div.inside-section.about {
     margin-top: 200px;
     
+}
+
+section div.inside-section.projects {
+    margin-top: 130px;
 }
 
 div#about-text-group {
@@ -175,12 +179,7 @@ img#self {
     width: 500px;
     float: left;
     margin-right: 50px;
-}
-
-img#computer {
-    display: block;
-    width: 500px;
-    float: right;
+    margin-bottom: 50px;
 }
 
 p {
@@ -214,6 +213,74 @@ p a:hover {
 p mark {
     color: white;
 }
+
+h2 {
+    color: white;
+    font-size: 450%;
+    font-family: "Abel";
+    text-align: center;
+    margin-bottom: 70px;
+    text-transform: uppercase;
+}
+
+/* Image Overlay */
+.container.wireframing {
+    display: block;
+    float: left;
+    position: relative;
+    width: 40%;
+    margin-left: 7%;
+}
+
+.container.poster {
+    display: block;
+    float: right;
+    position: relative;
+    width: 40%;
+    margin-right: 7%;
+}
+
+img#wireframes-mockup {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+img#poster-mockup {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color:rgb(10, 10, 10);
+}
+
+.container:hover .overlay {
+    opacity: 0.8;
+}
+
+.name {
+    color: white;
+    font-size: 400%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: "Abel";
+  }
 
 /* Scroll Bar */
 ::-webkit-scrollbar {
