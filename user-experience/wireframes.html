@@ -11,7 +11,7 @@
     </head>
 
     <body>
-        <script src = "javascript/fade.js"></script>
+        <script src = "../javascript/fade.js"></script>
 
         <header id = "navbar">
             <script src = "javascript/scroll.js"></script>
@@ -21,9 +21,13 @@
             </nav>
             <nav class = "main-nav">
                 <a href = "../home.html">Home</a>
-                <a href = "../user-experience.html" class = "current">User Experience</a>
-                <!-- <a href = "engineering.html">Engineering</a> -->
-                <!-- <a href = "stem-outreach.html">STEM Outreach</a> -->
+                <div class = "dropdown">
+                    <a href = "../user-experience.html" class = "dropbutton current">User Experience</a>
+                    <div class = "dropdown-content">
+                        <a href = "wireframes.html">Wireframing</a>
+                        <a href = "poster.html">Poster</a>
+                    </div>
+                </div>
                 <a href = "../connect.html">Connect</a>
             </nav>
         </header>

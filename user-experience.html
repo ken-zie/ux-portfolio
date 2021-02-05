@@ -21,9 +21,13 @@
             </nav>
             <nav class = "main-nav">
                 <a href = "home.html">Home</a>
-                <a href = "user-experience.html" class = "current">User Experience</a>
-                <!-- <a href = "engineering.html">Engineering</a> -->
-                <!-- <a href = "stem-outreach.html">STEM Outreach</a> -->
+                <div class = "dropdown">
+                    <a href = "user-experience.html" class = "dropbutton current">User Experience</a>
+                    <div class = "dropdown-content">
+                        <a href = "user-experience/wireframes.html">Wireframing</a>
+                        <a href = "user-experience/poster.html">Poster</a>
+                    </div>
+                </div>
                 <a href = "connect.html">Connect</a>
             </nav>
         </header>
@@ -43,23 +47,19 @@
                 <div class = "container wireframing">
                     <a class = "image" href = "user-experience/wireframes.html">
                         <img id = "wireframes-mockup" src = "images/wireframes-mockup.png" alt = "Wireframes Project">
+                        <div class = "overlay">
+                            <h3 class = "name">Wireframing</h3>
+                        </div>
                     </a>
-                    <div class = "overlay">
-                        <a href = "user-experience/wireframes.html">
-                            <div class = "name">Wireframing</div>
-                        </a>
-                    </div>
                 </div>
 
                 <div class = "container poster">
                     <a class = "image" href = "user-experience/poster.html">
                         <img id = "poster-mockup" src = "images/poster-mockup.png" alt = "Poster Project">
+                        <div class = "overlay">
+                            <h3 class = "name">Poster Project</h3>
+                        </div>
                     </a>
-                    <div class = "overlay">
-                        <a href = "user-experience/poster.html">
-                            <div class = "name">Poster Project</div>
-                        </a>
-                    </div>
                 </div>
 
             </div>

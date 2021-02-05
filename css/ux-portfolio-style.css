@@ -109,7 +109,9 @@ nav.main-nav {
 
 nav.main-nav a {
     display: inline-block;
-    margin-left: 35px;
+    /* margin-left: 35px; */
+    margin-left: 18px;
+    margin-right: 18px;
     color: rgb(187, 187, 187);
     font-family: "Abel";
     font-size: 120%;
@@ -127,6 +129,31 @@ nav.external-nav a:hover {
 nav.main-nav a.current {
     border-bottom: solid 2px white;
     color: white;
+}
+
+/* Dropdown Menu */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:rgb(10, 10, 10);
+    min-width: 60px;
+    z-index: 1;
+    padding-top: 25px;
+}
+
+.dropdown-content a {
+    color: white;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 h1 {
@@ -202,12 +229,13 @@ p.p-style3 {
 }
 
 p a {
-    /* color: #9EB375; */
     color: #B8D157;
+    /* color: #E79548; */
 }
 
 p a:hover {
     color: #DFFF29;
+    /* color: #F1CA4A; */
 }
 
 p mark {
