@@ -67,8 +67,12 @@ header {
     font-family: "Abel";
 }
 
+.style2 > * {
+    background-color: rgb(35, 35, 35);
+}
+
 header.full-screen, section.full-screen {
-    height: 100vh;
+    min-height: 100vh;
 }
 
 section.half-screen {
@@ -77,7 +81,6 @@ section.half-screen {
 
 section div.inside-section.about {
     margin-top: 200px;
-    
 }
 
 section div.inside-section.projects {
@@ -131,6 +134,10 @@ nav.main-nav a.current {
     color: white;
 }
 
+div.dropdown-content a.current {
+    border-bottom: none;
+}
+
 /* Dropdown Menu */
 .dropdown {
     position: relative;
@@ -144,6 +151,7 @@ nav.main-nav a.current {
     min-width: 60px;
     z-index: 1;
     padding-top: 25px;
+    padding-bottom: 15px;
 }
 
 .dropdown-content a {
@@ -249,6 +257,71 @@ h2 {
     text-align: center;
     margin-bottom: 70px;
     text-transform: uppercase;
+}
+
+/* Project Descriptions */
+section div.inside-section.project-description {
+    margin-top: 130px;
+}
+
+.project-description h2 {
+    border-bottom: solid 2px rgb(187, 187, 187);
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+}
+
+.project-description img {
+    display: block;
+    float: left;
+    width: 28%;
+}
+
+div.text {
+    display: block;
+    float: right;
+    width: 70%;
+    margin-left: 30px;
+}
+
+div.paragraph {
+    display: block;
+    float: left;
+    width: 100%;
+    padding-bottom: 17px;
+    padding-top: 17px;
+}
+
+div.paragraph:first-child {
+    padding-top: 0px;
+}
+
+.paragraph p.p-style4 {
+    display: block;
+    float: right;
+    width: 73%;
+    font-size: 130%;
+    color:rgb(187, 187, 187);
+    line-height: 1.3;
+}
+
+.paragraph h3 {
+    display: block;
+    float: left;
+    text-transform: uppercase;
+    font-size: 310%;
+    text-align: right;
+    width: 300px;
+    color: white;
+    font-family: "Abel";
+}
+
+.paragraph mark {
+    font-weight: bold;
+}
+
+.poster-summary {
+    background-color: rgb(35, 35, 35);
+    padding-bottom: 200px;
 }
 
 /* Image Overlay */
