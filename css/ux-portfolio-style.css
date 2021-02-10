@@ -270,7 +270,7 @@ section div.inside-section.project-description {
     margin-bottom: 50px;
 }
 
-.project-description img {
+img#poster-animation {
     display: block;
     float: left;
     width: 28%;
@@ -322,6 +322,74 @@ div.paragraph:first-child {
 .poster-summary {
     background-color: rgb(35, 35, 35);
     padding-bottom: 200px;
+}
+
+div.poster-container {
+    display: block;
+    float: left;
+    width: 28%;
+}
+
+img#poster-final, img#poster-draft {
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+img#flying-poster {
+    width: 150%;
+}
+
+/* Caption Overlay */
+.container.draft, .container.final {
+    display: block;
+    float: left;
+    position: relative;
+}
+
+.container.draft {
+    margin-bottom: 30px;
+}
+
+
+img#poster-final, img#poster-draft {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.caption-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 25%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color:rgb(10, 10, 10);
+}
+
+.container:hover .caption-overlay {
+    opacity: 0.8;
+}
+
+.caption {
+    color: white;
+    font-size: 200%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: "Abel";
+}
+
+a .caption:hover {
+    font-weight: bold;
 }
 
 /* Image Overlay */
