@@ -498,3 +498,15 @@ img#poster-mockup {
 ::-webkit-scrollbar-button:hover {
     background: rgb(187, 187, 187);
 }
+
+::-webkit-scrollbar-thumb:active {
+    color: white;
+}
+
+::-webkit-scrollbar-button:active {
+    color: white;
+}
+
+::-webkit-scrollbar-corner {
+    color: rgb(10, 10, 10);
+}
