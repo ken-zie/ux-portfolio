@@ -335,7 +335,7 @@ h3.primary {
     line-height: 1.2;
 }
 
-.p-style4 mark {
+.p-style4 mark, .p-style3 mark {
     font-weight: bold;
 }
 
@@ -467,7 +467,11 @@ img#poster-mockup {
     transform: translate(-50%, -50%);
     text-align: center;
     font-family: "Abel";
-  }
+}
+
+.name:hover {
+    font-weight: bold;
+}
 
 /* Scroll Bar */
 ::-webkit-scrollbar {
