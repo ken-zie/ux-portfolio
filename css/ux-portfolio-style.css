@@ -4,8 +4,8 @@ body {
     transition-property: opacity;
 
     background: rgb(10, 10, 10);
-    background-image: linear-gradient(rgb(23, 23, 23) .05em, transparent 0.01em), 
-                      linear-gradient(90deg, rgb(23, 23, 23) .05em, transparent 0.01em);
+    background-image: linear-gradient(rgb(40, 40, 40) .05em, transparent 0.01em), 
+                      linear-gradient(90deg, rgb(40, 40, 40) .05em, transparent 0.01em);
     background-size: 1.7em 1.7em;
 }
 
