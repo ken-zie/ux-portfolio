@@ -4,8 +4,8 @@ body {
     transition-property: opacity;
 
     background: rgb(10, 10, 10);
-    background-image: linear-gradient(rgb(35, 35, 35) .05em, transparent 0.01em), 
-                      linear-gradient(90deg, rgb(35, 35, 35) .05em, transparent 0.01em);
+    background-image: linear-gradient(rgb(23, 23, 23) .05em, transparent 0.01em), 
+                      linear-gradient(90deg, rgb(23, 23, 23) .05em, transparent 0.01em);
     background-size: 1.7em 1.7em;
 }
 
@@ -57,20 +57,16 @@ header {
 /*
 .style1 {
     background: rgb(10, 10, 10);
-    background-image: linear-gradient(rgb(35, 35, 35) .05em, transparent 0.01em), 
-                      linear-gradient(90deg, rgb(35, 35, 35) .05em, transparent 0.01em);
+    background-image: linear-gradient(rgb(23, 23, 23) .05em, transparent 0.01em), 
+                      linear-gradient(90deg, rgb(23, 23, 23) .05em, transparent 0.01em);
     background-size: 1.7em 1.7em;
 }
 */
 
 .style2 {
-    background-color:rgb(35, 35, 35);
+    background-color:rgb(23, 23, 23);
     color: white;
     font-family: "Abel";
-}
-
-.style2 > * {
-    background-color: rgb(35, 35, 35);
 }
 
 header.full-screen, section.full-screen {
@@ -259,6 +255,27 @@ h2 {
     text-align: center;
     margin-bottom: 70px;
     text-transform: uppercase;
+}
+
+/* Design Rationale */
+.design-rationale {
+    margin-top: 130px;
+}
+
+.design-rationale h2 {
+    margin-bottom: 40px;
+}
+
+.design-rationale p {
+    color: rgb(187, 187, 187);
+    font-size: 150%;
+    line-height: 1.2;
+}
+
+.design-rationale mark {
+    color: white;
+    font-size: 125%;
+    font-weight: bold;
 }
 
 /* Project Descriptions */
@@ -462,7 +479,7 @@ img#poster-mockup {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: rgb(35, 35, 35);
+    background: rgb(23, 23, 23);
     border-radius: 1px;
 }
 
@@ -471,7 +488,7 @@ img#poster-mockup {
 }
 
 ::-webkit-scrollbar-button {
-    background: rgb(35, 35, 35);
+    background: rgb(23, 23, 23);
 }
 
 ::-webkit-scrollbar-button:hover {
