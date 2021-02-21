@@ -500,11 +500,11 @@ img#poster-mockup {
 }
 
 ::-webkit-scrollbar-thumb:active {
-    color: white;
+    background: white;
 }
 
 ::-webkit-scrollbar-button:active {
-    color: white;
+    background: white;
 }
 
 ::-webkit-scrollbar-corner {
