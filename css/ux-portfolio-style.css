@@ -258,21 +258,21 @@ h2 {
 }
 
 /* Design Rationale */
-.design-rationale {
+.design-rationale, .ux-reflection {
     margin-top: 130px;
 }
 
-.design-rationale h2 {
+.design-rationale h2, .ux-reflection h2 {
     margin-bottom: 40px;
 }
 
-.design-rationale p {
+.design-rationale p, .ux-reflection p {
     color: rgb(187, 187, 187);
     font-size: 150%;
     line-height: 1.2;
 }
 
-.design-rationale mark {
+.design-rationale mark, .ux-reflection mark {
     color: white;
     font-size: 125%;
     font-weight: bold;
