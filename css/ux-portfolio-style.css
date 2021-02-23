@@ -410,6 +410,10 @@ a .caption:hover {
     font-weight: bold;
 }
 
+section {
+    padding-bottom: 50px;
+}
+
 /* Image Overlay */
 .container.wireframing {
     display: block;
