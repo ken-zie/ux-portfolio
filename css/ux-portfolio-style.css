@@ -54,15 +54,6 @@ header {
     padding-bottom: 20px;
 }
 
-/*
-.style1 {
-    background: rgb(10, 10, 10);
-    background-image: linear-gradient(rgb(23, 23, 23) .05em, transparent 0.01em), 
-                      linear-gradient(90deg, rgb(23, 23, 23) .05em, transparent 0.01em);
-    background-size: 1.7em 1.7em;
-}
-*/
-
 .style2 {
     background-color:rgb(23, 23, 23);
     color: white;
@@ -189,7 +180,7 @@ nav.connect-nav {
     float: right;
     text-align: right;
     margin-top: 30vh;
-    width: 30%;
+    width: 50%;
 }
 
 nav.connect-nav a {
@@ -412,6 +403,10 @@ a .caption:hover {
 
 section {
     padding-bottom: 50px;
+}
+
+table {
+    margin-bottom: 10px;
 }
 
 /* Image Overlay */
